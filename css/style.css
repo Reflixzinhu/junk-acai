@@ -81,8 +81,8 @@ h2 {
 .button2 {
   font-size: 1.5rem;
   font-family: "Pacifico", cursive;
-  width: 100px;
-  height: 44px;
+  width: 6.25rem;
+  height: 2.75rem;
   background: var(--fundo);
   border-radius: 20px;
 }
@@ -110,8 +110,105 @@ footer p {
   font-size: 0.75rem;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 374px) {
   * {
     font-size: 4vw;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  * {
+    font-size: 2vw;
+  }
+  .image {
+    padding-top: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .image2 {
+    padding-top: 0rem;
+    padding-left: 0rem;
+    padding-right: 0px;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #junk-standard {
+    padding-top: 1.875rem;
+    padding-left: 3rem;
+  }
+  #junk-shake {
+    padding-top: 1.875rem;
+    padding-right: 3rem;
+  }
+  #junk-noah {
+    padding-top: 1.875rem;
+    padding-left: 3rem;
+  }
+  #salty-junk {
+    padding-top: 1.875rem;
+    padding-right: 3rem;
+  }
+  #junk-fish {
+    padding-top: 1.875rem;
+    padding-left: 3rem;
+  }
+  #junk-gateau {
+    padding-top: 1.875rem;
+    padding-right: 3rem;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+  .food {
+    padding-bottom: 1.875rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  * {
+    font-size: 1.2075471698113207vw;
+  }
+  .image {
+    padding-top: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .image2 {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  #images1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  #images2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  #junk-standard {
+    padding-top: 0;
+    padding-top: 1.875rem;
+    padding-left: 7.0625rem;
+  }
+  #junk-noah {
+    padding-top: 1.875rem;
+  }
+  #junk-fish {
+    padding-top: 1.875rem;
+    padding-right: 7.0625rem;
+  }
+  #junk-shake {
+    padding-left: 7.0625rem;
+  }
+  #junk-gateau {
+    padding-right: 7.0625rem;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+  .food {
+    padding-bottom: 1.875rem;
   }
 }
